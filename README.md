@@ -83,4 +83,3 @@
 
 课程的参考Demo见：[DEMOs](https://github.com/LBruyne/blockchain-course-demos)。
 
-如果有其它参考的内容，也请在这里陈列。
