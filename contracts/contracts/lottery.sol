@@ -16,14 +16,14 @@ contract Lottery {
     struct Proposal {
         uint index;      // index of this proposal
         address proposer;  // who make this proposal
-        uint passnum;
+        int passnum;
         string name;       // proposal name
         string contents;   // 提案内容
         uint prostatus;   //状态 0否决 1同意 2进行中  
     }
     uint256 constant public PLAY_AMOUNT = 500;
 
-    uint256 public totalAmount; // 奖池总共金额
+    int256 public totalAmount; // 奖池总共金额
     address public manager; // 管理员，用来开奖和退款
 
     address[] public players; // 玩家
