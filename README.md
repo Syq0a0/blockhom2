@@ -45,38 +45,38 @@
 该功能与领取浙大币空投一致，通过调用MyERC20合约中的airdrop函数即可实现
 2. 使用一定数量通证积分，发起提案
 使用积分与彩票demo中注入奖池一致，使用相同方法实现，在此基础上，调用Lottery合约中的addProposal函数，发起一个提案
-![avatar](/picture/1.png)
+![avatar](/pictures/1.png)
 3. 使用一定数量通证积分可以对提案进行投票
 使用积分实现同上，调用Lottery合约中的vote函数，用户可实现投票
-![avatar](/picture/2.png)
+![avatar](/pictures/2.png)
 4. 提案截止后，赞成数大于反对数的提案通过，提案发起者领取一定的积分奖励
 调用Lottery合约中的sum函数，发起者可以结束提案，获得积分奖励可根据demo中空投函数进行修改得到
-![avatar](/picture/3.png)
-![avatar](/picture/4.png)
+![avatar](/pictures/3.png)
+![avatar](/pictures/4.png)
 
 ## 项目运行截图
 1. 启动ganache链
-![avatar](/picture/5.png)
+![avatar](/pictures/5.png)
 2. 启动前端页面
-![avatar](/picture/16.png)
-![avatar](/picture/6.png)
+![avatar](/pictures/16.png)
+![avatar](/pictures/6.png)
 3. 导入账户
-![avatar](/picture/7.png)
+![avatar](/pictures/7.png)
 4. 领取通证积分（刷新页面后积分数目正确显示）
-![avatar](/picture/8.png)
+![avatar](/pictures/8.png)
 5. 发起提案（成功发起，提案发起者地址变为当前用户地址，提案支持人数变为1）
-![avatar](/picture/9.png)
-![avatar](/picture/10.png)
+![avatar](/pictures/9.png)
+![avatar](/pictures/10.png)
 6. 切换用户并同意提案
-![avatar](/picture/11.png)
+![avatar](/pictures/11.png)
 7. 切换用户并拒绝提案
-![avatar](/picture/12.png)
+![avatar](/pictures/12.png)
 8. 切换回发起者并统计提案
-![avatar](/picture/13.png)
+![avatar](/pictures/13.png)
 9. 发起者获得通证积分奖励
-![avatar](/picture/14.png)
+![avatar](/pictures/14.png)
 10. 过程产生大量新的区块
-![avatar](/picture/15.png)
+![avatar](/pictures/15.png)
 
 
 ## 参考内容
