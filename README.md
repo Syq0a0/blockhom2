@@ -71,7 +71,7 @@
 ![avatar](/pictures/11.png)
 7. 切换用户并拒绝提案
 ![avatar](/pictures/12.png)
-8. 切换回发起者并统计提案
+8. 切换回发起者并统计提案(支持人数-反对人数>0，提案通过)
 ![avatar](/pictures/13.png)
 9. 发起者获得通证积分奖励
 ![avatar](/pictures/14.png)
